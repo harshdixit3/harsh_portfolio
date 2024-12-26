@@ -4,7 +4,7 @@ import axios from 'axios';
 import toast from 'react-hot-toast';
 
 
-function Contects() {
+function Contacts() {
     
     const {
         register,
@@ -29,9 +29,9 @@ function Contects() {
 
    return (
     <>
-    <div name="Contects" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16">
-        <h1 className='text-3xl font-bold mb-4 '>Contect Me</h1>
-        <span>Please Fill out The Form Below To Contect Me</span>
+    <div name="Contacts" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16">
+        <h1 className='text-3xl font-bold mb-4 '>Contact Me</h1>
+        <span>Please Fill out The Form Below To Contact Me</span>
         <div className='flex flex-col items-center justify-center'>
             <form 
                onSubmit={handleSubmit(onSubmit)}
@@ -89,4 +89,4 @@ function Contects() {
   )
 };
 
-export default Contects;
+export default Contacts;
